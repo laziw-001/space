@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirish sahifasi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="image 2.png" alt="MARS IT School" class="logo">
+        <button class="lang-btn">UZB</button>
+    </header>
+
+    <div class="login-container">
+        <img src="./image 2.png" alt="MARS IT School" class="login-logo">
+        <a href="#" class="offerta">Offerta imzolash</a>
+        <h2>Spacega xush kelibsiz</h2>
+        
+        <div class="btn-group">
+            <button class="role-btn active">O'quvchiman</button>
+            <button class="role-btn">Ota-onaman</button>
+        </div>
+
+        <input type="text" id="user-id" placeholder="Modme Id or Phone number">
+        <input type="password" id="password" placeholder="Password">
+        
+        <p id="error-message" class="error-message"></p>
+        
+        <a href="#" class="qr-link">QR code orqali kirish</a>
+        
+        <button class="login-btn" onclick="validateLogin()">Kirish</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
